@@ -61,6 +61,10 @@ header{
     .container{
     padding: 5px 10px;
 }
+    .extention{
+    margin: 0px;
+   
+}
 }
 .control-btn{
     color: var(--title-color);
