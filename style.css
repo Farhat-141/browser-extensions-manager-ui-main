@@ -58,6 +58,9 @@ header{
     .list{
         flex-direction: column;
     }
+    .container{
+    padding: 5px 10px;
+}
 }
 .control-btn{
     color: var(--title-color);
