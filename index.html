@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <style>
+    .attribution { 
+      font-size: 12px; text-align: center; margin: 10px auto;
+      padding: 5px;
+      border-radius: 5px;
+    width: fit-content;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <header>
+        <img class="logo" src="assets/images/logo.svg" alt="logo">
+        <img class="toggle" src="assets/images/icon-sun.svg" alt="moon-logo">
+    </header>
+
+    <div class="list">
+      <h1 class="list-title">Extention List</h1>
+      <div class="button-list">
+        <button id="show-all" class="control-btn">All</button>
+        <button id="show-active" class="control-btn">Active</button>
+        <button id="show-inactive" class="control-btn">Inactive</button>
+      </div>
+    </div>
+
+    <div class="extention"></div>
+
+  </div>
+  
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://github.com/Farhat-141">Farhat</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
