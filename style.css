@@ -239,7 +239,7 @@ header{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    background: rgb(107 107 107 / 50%); /* Semi-transparent dark background */
     z-index: 999; /* Ensure the overlay covers everything */
     pointer-events: all; /* Allow the overlay to block interactions */
 }
